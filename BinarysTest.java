@@ -18,9 +18,18 @@ public class BinarysTest {
         Long num = 0L;
 
         while (decision != 4) {
-            System.out.printf("%n%10s %n%nBinary checker %d %n%n[%d] - Number to binary%n[%d] - Binary by amount of bits%n[%d] - Binary to number%n[%d] - Out%n", "-----", 2000, 1, 2, 3, 4);
-            System.out.print("\nInput: ");
-            decision = scan.nextInt();
+                try {
+                    System.out.printf("%n%10s %n%nBinary checker %d %n%n[%d] - Number to binary", "-----", 2000, 1);
+                    System.out.printf("%n[%d] - Binary by amount of bits%n[%d] - Binary to number%n[%d] - Out%n", 2, 3, 4);
+                    System.out.print("\nInput: ");
+                    decision = scan.nextInt();
+                    if (decision != 1 || decision != 2 || decision != 3 || decision != 4) {
+                        decision = 0;
+                        throw new Exception();
+                    }
+                } catch (Exception e) {
+                    System.out.println("Error!");
+                } 
 
             if (decision == 1) {
                 System.out.print("\nType a number: ");
@@ -47,7 +56,7 @@ public class BinarysTest {
                 String binary = scan.next();
                 num = Long.parseLong(binary, 2);
                 System.out.println("\nInteger: " + num + "\n");
-            }
+            } else continue;
             
         }
         System.out.println("\nend\n");
