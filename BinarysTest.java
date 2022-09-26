@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-// import java.util.Scanner;
-
 public class BinarysTest {
     
     public static String catchNum(int x) {
