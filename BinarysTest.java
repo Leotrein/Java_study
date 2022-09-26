@@ -29,6 +29,7 @@ public class BinarysTest {
                     }
                 } catch (Exception e) {
                     System.out.println("Error!");
+                    // check treatment for a string
                 } 
 
             if (decision == 1) {
