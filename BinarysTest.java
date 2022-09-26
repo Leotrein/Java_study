@@ -23,14 +23,15 @@ public class BinarysTest {
                     System.out.printf("%n[%d] - Binary by amount of bits%n[%d] - Binary to number%n[%d] - Out%n", 2, 3, 4);
                     System.out.print("\nInput: ");
                     decision = scan.nextInt();
-                    if (decision != 1 || decision != 2 || decision != 3 || decision != 4) {
-                        decision = 0;
+                    if (decision > 4 || decision < 1) {
                         throw new Exception();
                     }
+                } catch (java.util.InputMismatchException e) {
+                    System.out.println("Error!");
+                    break;
                 } catch (Exception e) {
                     System.out.println("Error!");
-                    // check treatment for a string.
-                } 
+                }
 
             if (decision == 1) {
                 System.out.print("\nType a number: ");
@@ -57,7 +58,7 @@ public class BinarysTest {
                 String binary = scan.next();
                 num = Long.parseLong(binary, 2);
                 System.out.println("\nInteger: " + num + "\n");
-            } else continue;
+            }
             
         }
         System.out.println("\nend\n");
