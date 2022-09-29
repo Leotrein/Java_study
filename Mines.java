@@ -20,7 +20,6 @@ public class Mines {
         int stake = scan.nextInt();
 
         System.out.println();
-        
         for (int i = 0; i < rounds; i++) {
             double result = playMines(stake);
             if (result < 0) {
@@ -60,13 +59,12 @@ public class Mines {
         for (int i = 0; i < bomb.length; i++) {
             bomb[i] = randomNum.nextInt(25);
         }
-
         for (int i = 1; i <= 25; i++) {
             if (i == bomb[0] || i == bomb[1] || i == bomb[2] || i == bomb[3]) {
                 profit = 0;
                 result = profit - stake;
                 break;
-            } else if (i== 3) {
+            } else if (i == 3) {
                 profit = stake * 1.64;
                 result = Math.abs(profit - stake);
                 break;
