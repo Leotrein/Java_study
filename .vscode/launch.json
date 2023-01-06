@@ -1,105 +1,112 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch Boom",
-            "request": "launch",
-            "mainClass": "Boom",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch Caneta",
-            "request": "launch",
-            "mainClass": "Caneta",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch Clock",
-            "request": "launch",
-            "mainClass": "Clock",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch GradesArray",
-            "request": "launch",
-            "mainClass": "GradesArray",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch Calculator",
-            "request": "launch",
-            "mainClass": "LamdasUsage.Calculator",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch LeapYear",
-            "request": "launch",
-            "mainClass": "LeapYear",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch Matrix",
-            "request": "launch",
-            "mainClass": "Matrix",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch Meter",
-            "request": "launch",
-            "mainClass": "Meter",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch Palindrome",
-            "request": "launch",
-            "mainClass": "Palindrome",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch PatternMatcher",
-            "request": "launch",
-            "mainClass": "PatternMatcher",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch PrimeNumber",
-            "request": "launch",
-            "mainClass": "PrimeNumber",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch PrimeNumbers2",
-            "request": "launch",
-            "mainClass": "PrimeNumbers2",
-            "projectName": "projects_4465b0ec"
-        },
-        {
-            "type": "java",
-            "name": "Launch Words",
-            "request": "launch",
-            "mainClass": "Words",
-            "projectName": "projects_4465b0ec"
-        }
-    ]
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Launch BinarysTest",
+			"request": "launch",
+			"mainClass": "BinarysTest",
+			"projectName": "projects_a7360542"
+		},
+		{
+			"type": "java",
+			"name": "Launch Current File",
+			"request": "launch",
+			"mainClass": "${file}"
+		},
+		{
+			"type": "java",
+			"name": "Launch Boom",
+			"request": "launch",
+			"mainClass": "Boom",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch Caneta",
+			"request": "launch",
+			"mainClass": "Caneta",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch Clock",
+			"request": "launch",
+			"mainClass": "Clock",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch GradesArray",
+			"request": "launch",
+			"mainClass": "GradesArray",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch Calculator",
+			"request": "launch",
+			"mainClass": "LamdasUsage.Calculator",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch LeapYear",
+			"request": "launch",
+			"mainClass": "LeapYear",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch Matrix",
+			"request": "launch",
+			"mainClass": "Matrix",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch Meter",
+			"request": "launch",
+			"mainClass": "Meter",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch Palindrome",
+			"request": "launch",
+			"mainClass": "Palindrome",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch PatternMatcher",
+			"request": "launch",
+			"mainClass": "PatternMatcher",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch PrimeNumber",
+			"request": "launch",
+			"mainClass": "PrimeNumber",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch PrimeNumbers2",
+			"request": "launch",
+			"mainClass": "PrimeNumbers2",
+			"projectName": "projects_4465b0ec"
+		},
+		{
+			"type": "java",
+			"name": "Launch Words",
+			"request": "launch",
+			"mainClass": "Words",
+			"projectName": "projects_4465b0ec"
+		}
+	]
 }
