@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CreateFile {
@@ -15,6 +16,7 @@ public class CreateFile {
         // creating file (input)
         // use .txt (more easy)
 
+        Locale.setDefault(Locale.US);
         Scanner scan = new Scanner(System.in);
 
         String path;
